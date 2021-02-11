@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #7ea04d;
+  color: #fff;
+}
+
+p {
+  margin: 0.5em 0 0.5em 0;
+}
+
+aside img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px #fe7171 solid;
+  background-color: #fe7171;
+}
+
+header {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+}
+
+nav a:visited,
+nav a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav > ul {
+  display: inline;
+  padding: 0;
+}
+
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px 0 5px;
+}
