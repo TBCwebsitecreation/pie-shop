@@ -49,7 +49,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color:#335d2d;
+  background-color:#7ea04d;
   padding: 10px;
 }
 
@@ -78,6 +78,27 @@ main {
   min-height: 85%;
 }
 
+.contact {
+  position: relative;
+  left: 460px;
+  align-items: center;
+}
+
+.contact-email {
+  position: relative;
+  left: 120px;
+}
+
+.contact-email h1 {
+  position: relative;
+  left: 180px;
+}
+
+.pie img{
+  height: 200px;
+  width: 300px;
+}
+
 footer {
   padding: 15px;
 }
@@ -96,11 +117,61 @@ article {
   width: 75%;
 }
 
+.columns {
+  display: flex;
+}
+
+
+/* Pies */
+
+.pie {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #7ea04d;
+  border: solid 3px #fe7171;
+  border-radius: 5%;
+
+}
+
+.pie img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.pie .title {
+  font-weight: bold;
+  
+}
+
+.pie .columns {
+  width: 100%;
+}
+
+.pie .price {
+  text-align: right;
+}
+
+.pie .columns div {
+  width: 50%;
+}
+
+.pie button {
+  background-color: #fe7171;
+  color: white;
+  padding: 10px;
+  border: 1px solid #335d2d;
+  border-radius: 30px;
+}
+
 @media screen and (min-width: 768px) {
   main {
     display: flex;
   }
   aside {
     margin-left: 2%;
+  }
+  .columns-desktop {
+    display: flex;
   }
 }
